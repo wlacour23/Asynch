@@ -9,7 +9,7 @@ async function printRandomNumber() {
 }
 
 async function printAllCities() {
-  for (const city of [ 'dallas', 'seattle', 'los_angeles' ]) {
+  for (const city of [ 'houston', 'denver', 'chicago' ]) {
     await printLatitudeAndLongitude(city);
   }
 }
